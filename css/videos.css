@@ -1,0 +1,64 @@
+.profile-picture{
+    width: 25px;
+    border-radius: 50px;
+
+}
+.video-title{
+    margin-top: 0;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    
+}
+.video-author{     
+    font-size: 8px;
+    color: rgb(96,96,96);
+    line-height: 15px;
+}
+
+.video-stats{     
+    font-size: 8px;
+    color: rgb(96,96,96);
+    line-height: 15px;
+}
+
+
+.div-blueprint{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 10px;
+    row-gap: 20px;
+    
+ 
+}.div-grid{
+
+    
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    /* width: 240px; */
+    
+}
+
+.thumbnail{
+    width: 100%;
+   
+}
+.div-thumbnail{
+    position: relative;
+}
+.div-time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 8px;
+    right: 4px;
+    font-family: roboto,Arial;
+    font-size: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    font-weight: 500;
+
+}
